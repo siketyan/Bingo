@@ -13,6 +13,8 @@ body {
 }
 
 #histories {
+  display: grid;
+  grid: auto / repeat(auto-fit, minmax(9em, 1fr));
   overflow-y: scroll;
 }
 
@@ -21,4 +23,5 @@ body {
   font-size: 5rem;
   margin: 1rem;
   line-height: 7rem;
+  text-align: right;
 }
