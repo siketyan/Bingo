@@ -1,4 +1,4 @@
-const count = 100;
+const count = 75;
 const getRandomInt = (min, max) => {
   min = Math.ceil(min);
   max = Math.floor(max);
