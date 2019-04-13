@@ -1,0 +1,24 @@
+html, body, main, main div {
+  height: 100%;
+}
+
+body {
+  padding-top: 5rem;
+}
+
+#now {
+  width: 100%;
+  text-align: center;
+  font-size: 15rem;
+}
+
+#histories {
+  overflow-y: scroll;
+}
+
+.history {
+  display: inline-block;
+  font-size: 5rem;
+  margin: 1rem;
+  line-height: 7rem;
+}
